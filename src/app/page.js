@@ -5,7 +5,7 @@ import Card from './components/Card'
 
 async function getStaticProps() {
 
-  const maxPokemons = 251
+  const maxPokemons = 151
   const api = 'https://pokeapi.co/api/v2/pokemon/'
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`)
@@ -15,6 +15,7 @@ async function getStaticProps() {
 
   data.results.forEach((item, index) => {
     item.id = index + 1
+
   });
 
   return data.results
@@ -22,7 +23,7 @@ async function getStaticProps() {
 
 export default async function Home() {
 
-  const pokemons = await getStaticProps();
+   const pokemons = await getStaticProps();
 
   return (
     <>
