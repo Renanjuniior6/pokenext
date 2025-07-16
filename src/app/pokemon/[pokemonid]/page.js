@@ -1,36 +1,10 @@
-'use client'
-import { useParams } from "next/navigation";
-import { fetchPokemons } from "../../lib/fetchPokemons"
+export default async function Pokemon({ params }) {
 
-const getPokemons = async () => {
-
-  const pokemons = await fetchPokemons();
-  // Params
-  const paths = pokemons.map((pokemon, index) => {
-    
-     let pokemonid
-     return pokemonid = (index + 1).toString()
-  });  
-
-  // Get pokemon by id
-//   const id = paths
-const params = useParams();
-  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${params.pokemonid}`) 
-  const data = res.json();
-
-//   console.log(data)
-
-  return data
-
-}
-
-export default async function Pokemon() {
-
-    const pokemon = await getPokemons();
-
-    console.log(pokemon.name)
+  const { pokemonid } = await params // está pegando o meu id no query params passado através do Link
+  const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonid}`)
+  const pokemon = await res.json();
 
     return (
-        <p>Testando tela do</p>
+        <p>Testando tela do pokemon #{pokemon.name}</p>
     )
 }
