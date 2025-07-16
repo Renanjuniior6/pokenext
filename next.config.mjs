@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        remotePatterns: [new URL('https://cdn.traction.one/pokedex/pokemon/**')]
+        remotePatterns: [new URL('https://cdn.traction.one/pokedex/pokemon')]
     }
 };
 
