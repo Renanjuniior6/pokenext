@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">PokeNext ⭐</h1>
 
-## Getting Started
+<div align="center">
+  <img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=blue&style=for-the-badge"/>
+</div>
+<br/>
+
+<p align="center">
+   <b>Projeto pessoal de estudo para praticar o uso da tecnologia Next.js junto com consumo a API</b>
+</p>
+
+## 🚀 Sobre o Projeto
+
+O **PokeAPI** é um projeto para fins de estudo visando o uso do Next.js e das vantagens do SSR (Server Side Rendering) e o consumo de uma API pública para a renderização e exibição dos conteúdos possibilitando a navegação pelas páginas.
 
 First, run the development server:
 
