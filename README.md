@@ -58,8 +58,12 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 
 ##
 
-<div align="center">
+<p align="center">
   Abaixo, um indicador visual da página principal do projeto.
+</p>
+
+<div align="center">
+  ![Imagem do projeto](public/assets/screen-mainPage.png)
 </div>
 
 ![imagem-do-projeto](public/assets/screen-mainPage.png)
