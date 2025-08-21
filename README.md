@@ -31,6 +31,14 @@ O **PokeAPI** é um projeto para fins de estudo visando o uso do Next.js e das v
 - **/pokemon/id** → Página dinâmica com informações do pokemon selecionado
 - **/about** → Página simples de sobre com informações fictícias
 
+##
+
+<p align="center">
+  Abaixo, um indicador visual da página principal do projeto.
+</p>
+
+![imagem-do-projeto](public/assets/screen-mainPage.png)
+
 ## 👇 É recomendável ter em sua máquina para rodar
 - [Node](https://nodejs.org/pt) 21.0^
 
@@ -55,11 +63,3 @@ bun dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
-##
-
-<p align="center">
-  Abaixo, um indicador visual da página principal do projeto.
-</p>
-
-![imagem-do-projeto](public/assets/screen-mainPage.png)
