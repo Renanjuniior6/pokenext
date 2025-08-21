@@ -61,3 +61,5 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 <div align="center">
   Abaixo, um indicador visual da página principal do projeto.
 </div>
+
+![imagem-do-projeto](public/assets/screen-mainPage.png)
