@@ -23,7 +23,7 @@ O **PokeAPI** é um projeto para fins de estudo visando o uso do Next.js e das v
   <img src="https://img.shields.io/badge/Next.js-333?style=for-the-badge&logo=next.js&logoColor=white" alt="Next Badge"/>
   <img src="https://img.shields.io/badge/React.js-49a3df?style=for-the-badge&logo=react&logoColor=white" alt="React Badge"/>
   <img src="https://img.shields.io/badge/CSS-0175C2?style=for-the-badge&logo=css&logoColor=white" alt="Css Badge"/>
-  <img src="https://img.shields.io/badge/Javascript-e0e333?style=for-the-badge&logo=javascript&logoColor=white" alt="Javascript Badge"/>
+  <img src="https://img.shields.io/badge/Javascript-f1e05a?style=for-the-badge&logo=javascript&logoColor=white" alt="Javascript Badge"/>
 </div>
 
 ## 💻 Telas Disponíveis
@@ -63,3 +63,6 @@ bun dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+## ⭕ Observações
+- Projeto não está totalmente responsivo
