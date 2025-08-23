@@ -60,9 +60,8 @@ pnpm dev
 # ou
 bun dev
 
+# Abra http://localhost:3000 no seu navegador para ver o resultado.
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
-
 ## ⭕ Observações
-- Projeto não está totalmente responsivo
+> **Projeto não está totalmente responsivo**
